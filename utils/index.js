@@ -11,7 +11,7 @@ module.exports = function (src, extension, excludeArr, callback) {
     })
     callback('success')
   } catch (error) {
-    callback('error')
+    callback('error:', error)
   }
 
 }
